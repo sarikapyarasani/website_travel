@@ -1,0 +1,153 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body, html {
+    height: 100%;
+}
+
+.background-image {
+    background-image: url('travel-hd.jpeg.jpg');
+    background-size: cover;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.icon {
+    margin-top: 20px; /* Adjust top margin for icon */
+}
+
+.logo {
+    color: #ff7200;
+    font-size: 35px;
+    font-family: Arial;
+}
+
+.menu ul {
+    list-style: none;
+    display: flex;
+    justify-content: center; /* Align menu items to center */
+}
+
+.menu ul li {
+    margin-right: 20px;
+}
+
+.search {
+    margin-top: 20px; /* Adjust top margin for search */
+}
+
+.srch {
+    font-family: 'Times New Roman';
+    width: 200px;
+    height: 40px;
+    background: transparent;
+    border: 1px solid #ff7200;
+    margin-right: 10px;
+    color: #fff;
+    padding: 0 10px;
+    border-radius: 5px 0 0 5px;
+}
+
+.btn {
+    width: 100px;
+    height: 40px;
+    background: #ff7200;
+    border: 2px solid #ff7200;
+    color: #fff;
+    font-size: 15px;
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+}
+
+.btn:hover {
+    background-color: #000;
+}
+
+.content {
+    color: black;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.content h1 {
+    font-family: 'Times New Roman';
+    font-size: 50px;
+    letter-spacing: 2px;
+}
+
+.content h2 {
+    font-family: 'Times New Roman';
+    font-size: 30px;
+    letter-spacing: 2px;
+}
+
+.par {
+    padding: 0 20px;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+.cn {
+    width: 160px;
+    height: 40px;
+    background:#fff;
+    border: none;
+    font-size: 18px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.cn a {
+    text-decoration: none;
+    color:black;
+    transition: .3s ease;
+}
+
+.cn:hover {
+    background-color: black;
+}
+
+.link {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    padding-top: 20px;
+}
+
+.link a {
+    text-decoration: none;
+    color: #ff7200;
+}
+
+.liw {
+    padding-top: 15px;
+    padding-bottom: 10px;
+}
+
+.icons a {
+    text-decoration: none;
+    color:#fff;
+}
+
+.icon ion-icon {
+    color: #fff;
+    font-size: 30px;
+    padding-left: 14px;
+    padding-top: 5px;
+    transition: 0.3s ease;
+}
+
+.icons ion-icon:hover {
+    color: #ff7200;
+}
